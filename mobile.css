@@ -1,0 +1,263 @@
+@media screen and (max-width: 400px) {
+  .navbar-navigator {
+    display: block;
+    height: 0;
+  }
+  .navbar_menu {
+    display: none;
+  }
+  .navbar-navigator_container {
+    display: block;
+  }
+  .navbar_toggler {
+    display: block;
+    cursor: pointer;
+    float: right;
+  }
+  .navbar_links {
+    color: #fff;
+  }
+  .navbar_container {
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .navbar-navigator_container {
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .mobile-nav {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar_container img {
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .navbar-navigator_menu {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: -1000px;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: -1;
+    margin: 0;
+  }
+  .navbar-navigator_menu.active {
+    background: #681f70;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 10%;
+    opacity: 1;
+    transition: 1s;
+    z-index: 99;
+    height: 70vh;
+    font-size: 1.6rem;
+    width: 100%;
+    margin: 0;
+  }
+  .homelink {
+    background-color: #681f70;
+    width: 100px;
+    height: 55px;
+  }
+
+  .navbar_item {
+    width: 100%;
+  }
+  .navbar_links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  /* Products */
+  .products_heading {
+    padding-top: 50px;
+    font-size: 25px;
+  }
+  .products_heading span {
+    font-size: 20px;
+  }
+  .products_description {
+    font-size: 20px;
+    width: 90%;
+  }
+  .products_description span {
+    display: none;
+  }
+
+  /* ABOUT */
+  .notJust_container {
+    display: none;
+  }
+  .components_container {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .components_header h1 {
+    margin: auto;
+    width: 85%;
+    font-size: 27px;
+    font-weight: 800;
+  }
+  .components_header p {
+    font-size: 15px;
+    width: 100%;
+  }
+  .components-divs_container {
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+  }
+  .component-div {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .component-div h1 {
+    font-size: 30px;
+  }
+  .component-div p {
+    width: 100%;
+  }
+  .component-div.eligibility {
+    border: none;
+    border-bottom: dashed 2px #000;
+  }
+  .component-div.validity {
+    border: none;
+    border-bottom: dashed 2px #000;
+  }
+  .component-div.necessity {
+    border: none;
+    border-bottom: dashed 2px #000;
+  }
+  #components-logo {
+    margin-left: 40%;
+    background-color: #fff;
+    width: 10%;
+    top: 47.7%;
+  }
+
+  .seperator {
+    margin-left: -140px;
+    height: 120px;
+  }
+  .seperator h1 {
+    font-size: 20px;
+  }
+  .seperator img {
+    height: 120px;
+  }
+
+  .why-demix_container {
+    background-color: #fff;
+  }
+  .why-demix_container h1 {
+    font-size: 24px;
+  }
+  .why-demix_container h1 {
+    width: 360px;
+    color: #000;
+  }
+  .examples {
+    margin: auto;
+    margin-right: 150px;
+  }
+  .first-row {
+    flex-direction: column;
+  }
+  .second-row {
+    flex-direction: column;
+  }
+  .examples-divs {
+    display: flex;
+    height: 100%;
+  }
+
+  .examples-divs {
+    width: 380px;
+  }
+  .first-row.images {
+    flex-direction: column;
+  }
+  .examples-divs h1 {
+    color: #681f70;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  .examples-divs h4 {
+    flex-direction: column;
+    font-size: 15px;
+    color: lightgray;
+  }
+  .examples-divs.second {
+    flex-direction: column;
+    padding-top: 50%;
+  }
+  .examples-divs.desc {
+    width: 380px;
+    padding: 0 10px;
+  }
+  .contact {
+    width: 100%;
+    height: 450px;
+  }
+  .contact-header {
+    margin-top: -20px;
+    width: 70%;
+    margin: auto;
+    padding: 0;
+  }
+  .contact-header h1 {
+    font-size: 25px;
+  }
+  .contact-header p {
+    font-size: 20px;
+  }
+  .contact-form-container {
+    flex-direction: column;
+  }
+  .contact-item {
+    display: flex;
+    width: 100%;
+  }
+  .row-two button {
+    width: 40%;
+    height: 35px;
+    margin-left: auto;
+    opacity: 0.7;
+  }
+  .row-two button strong {
+    margin: auto;
+  }
+  footer {
+    height: 100%;
+
+    width: 100%;
+  }
+  footer p {
+    width: 95%;
+    font-size: 20px;
+    margin: auto;
+  }
+}
